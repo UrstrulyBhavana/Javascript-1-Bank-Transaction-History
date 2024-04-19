@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+   nav {
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 20px;
+  }
+   nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+   nav li {
+    margin-right: 10px;
+  }
+   nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+   nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+   h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+   table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+   th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+   th {
+    background-color: cornflowerblue;
+    color: cornflowerblue;
+  }
+   td:first-child {
+    text-align: left;
+  }
+   .deposit {
+    color: green;
+  }
+   .withdraw {
+    color: red;
+  }
+   /* Table styles */
+ #transaction-table {
+    border-collapse: collapse;
+    margin: 1rem auto;
+ }
+ #transaction-table th,
+ #transaction-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+ }
+ #transaction-table th {
+    background-color: #f2f2f2;
+ }
+ /* Form styles */
+ #transaction-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+ }
+ #transaction-form label {
+    margin-bottom: 0.5rem;
+ }
+ #transaction-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+ }
+ #transaction-form button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+ }
+ #transaction-form button:hover {
+    background-color: #0069d9;
+ }
